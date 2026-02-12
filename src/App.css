@@ -1,0 +1,142 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  font-family: 'Open Sans', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+button {
+  border: none;
+  outline: none;
+  background: none;
+  font: inherit;
+  cursor: pointer;
+}
+
+.hero {
+  width: 100%;
+  max-width: 65rem;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: white;
+  border-radius: 20px;
+  box-shadow: 0px 4px 76.6px rgba(0, 0, 0, 0.20);
+}
+
+.btn-expo {
+  width: 100%;
+  font-weight: 400;
+  color: white;
+  background: linear-gradient(to bottom, #6D2CFF, #461F80);
+  box-shadow: 0 0 55px 0 #0000001F;
+  border: 1px solid #0000001A;
+  border-radius: 10px;
+  padding: 16px 32px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.hero1{
+  max-width: 68rem;   
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #7F9AAE;
+  border-radius: 20px;
+  font-family: 'Open Sans', sans-serif;
+  box-shadow: 0px 4px 76.6px rgba(0, 0, 0, 0.20);
+}
+.ticket-info{
+  width:100%;
+  font-weight:400;
+  margin-top:20px;
+  background: transparent;
+  border: 1px solid #0000001A;
+  border-radius: 10px;
+  padding: 16px 32px 16px 32px;
+  display: flex;       
+ justify-content:center; 
+  align-items: center;
+  gap:10px;
+}
+.title{
+   
+   text-decoration: underline; 
+    text-underline-offset: 8px; 
+   color: #121212;
+   text-transform: uppercase;
+   font-size:1.5rem;
+
+}
+.title1{
+   
+   text-decoration: underline; 
+    text-underline-offset: 8px; 
+   color: #ffffff;
+   text-transform: uppercase;
+   font-size:1.5rem;
+
+}
+.blur-line-top {
+  position: absolute;
+  z-index: 0;
+  opacity: 0.7;
+  pointer-events: none;
+
+  width: 100px;
+  height: 750px;
+
+  left: 260px;
+  top: -290px;
+
+  transform: rotate(-110.75deg);
+
+  background: radial-gradient(
+    100% 120% at 0% 70%,
+    rgba(70, 31, 128, 0.3) 0%,
+    rgba(44, 20, 88, 0.25) 40%,
+    rgba(26, 24, 82, 0.2) 70%,
+    rgba(43, 23, 31, 0.2) 100%
+  );
+
+  box-shadow: inset -39px 18px 97px rgba(255, 255, 255, 0.1);
+
+  backdrop-filter: blur(38px);
+  -webkit-backdrop-filter: blur(38px);
+}
+.blur-line-bottom {
+  position: absolute;
+  z-index: 0;
+  opacity: 0.7;
+  pointer-events: none;
+
+  width: 60px;
+  height: 600px;
+
+  left: 200px;
+  top: 450px;
+
+  transform: rotate(110.75deg);
+
+  background: radial-gradient(
+    100% 120% at 0% 70%,
+    rgba(70, 31, 128, 0.3) 0%,
+    rgba(44, 20, 88, 0.25) 40%,
+    rgba(26, 24, 82, 0.2) 70%,
+    rgba(43, 23, 31, 0.2) 100%
+  );
+
+  box-shadow: inset -39px 18px 97px rgba(255, 255, 255, 0.1);
+
+  backdrop-filter: blur(38px);
+  -webkit-backdrop-filter: blur(38px);
+}
+
