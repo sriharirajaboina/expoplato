@@ -41,7 +41,7 @@ const Ticket = ({ className }) => {
 
   return (
     <div className={`${className}`}>
-      <div className="hero px-4 sm:px-10 md:px-20 p-10">
+      <div className="hero px-4 sm:px-10 md:px-20 p-10 relative z-0">
         <div className="flex flex-col items-center">
           <h2 className="title text-2xl font-bold mb-8">Ticket</h2>
 
